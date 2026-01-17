@@ -26,7 +26,7 @@ docker run --name StarRupture -d \
 	--env 'GID=100' \
 	--volume /path/to/steamcmd:/serverdata/steamcmd \
 	--volume /path/to/starrupture:/serverdata/serverfiles \
-	ich777/steamcmd:starrupture
+	NecroticMan/steamcmd:starrupture
 ```
 
 This Docker was mainly edited for better use with Unraid, if you don't use Unraid you should definitely try it!
